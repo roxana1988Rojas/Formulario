@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <title>Validación de formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="index.js"></script>
+    
+
+<header class="header">
+    <nav class="nav">
+      <img  class="logo nav-link" src="bbb.jpg" alt="bebe" width="70" height="80">
+      <button class="nav-toggle" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link">Registrese</a>
+        </li>
+        <li class="nav-menu-item">
+          <a href="#" class="nav-menu-link nav-link">login</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+<main>
+    <h1>Baby Center</h1>
+
+
+<br>
+<section class="section-form">
+    <div class="contenedor">
+        <div class="cabecera">
+            <h2>Formulario</h2>
+        </div>
+        <form id="formulario" action="procesar.php" method="">
+
+            <div class="form-control">
+                <label for="usuario">Nombre de usuario</label>
+                <input id="usuario" type="text">
+                <p></p>                
+            </div>
+
+            <div class="form-control">
+                <label for="email">Correo electronico</label>
+                <input id="email" type="email">
+                <p></p>                
+            </div>
+
+            <div class="form-control">
+                <label for="pass">Constraseña</label>
+                <input id="pass" type="password">
+                <p></p>                
+            </div>
+
+            <div class="form-control">
+                <label for="passConfirma">Confirmar Constraseña</label>
+                <input id="passConfirma" type="password">
+                <p></p>                
+            </div>
+
+
+<hr>
+<br>
+<!-- Grupo: Terminos y Condiciones -->
+<div class="formulario__grupo">
+        <label class="formulario__label">
+        <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+        Acepto los Terminos y Condiciones
+    </label>
+</div>
+
+<br>
+<div class="formulario__grupo formulario__grupo-btn-enviar">
+
+    <button >Enviar</button>
+ 
+</div>
+        
+        </form>
+    </div>
+    <br>
+</section>
+
+    <footer >
+        <div class="grid-layout">
+          <div class="caja-logo">
+            <img class="logo-footer" src="bbb.jpg" alt="logo Veggie Creative" />
+          </div>
+          
+          <div class="caja-horario">
+            <h3>Horario de Atencion</h3>
+            <div class="horario">
+              <ul>
+                <li>Lunes a Jueves 9h a 16h</li>
+                <li>Viernes a Domingo 10h a 14h</li>
+              </ul>
+            </div>
+          </div>
+    
+
+    
+          <div class="caja-siguenos">
+            <div class="img-footer">
+              <a href="https://www.facebook.com/">
+                <img src="https://cdn-icons-png.flaticon.com/128/747/747374.png" alt="icono facebook" /></a>
+              <a href="https://www.instagram.com/">
+                <img src="https://cdn-icons-png.flaticon.com/128/725/725339.png" alt="icono Instagram" /></a>
+
+            </div>
+          </div>
+
+        </div>
+    <br>
+    </footer>
+
+    <script src="app.js"></script>
+</main>
+
+</body >
+</html>
